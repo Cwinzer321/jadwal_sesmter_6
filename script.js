@@ -9,7 +9,7 @@ const scheduleData = [
     { day: "Wednesday", subject: "Keamanan Komputer", time: "20:20 - 22:00", room: "Lab Computer 2 -4th Floor", lecturer: "Taufiq Hidayatullah" },
     { day: "Thursday", subject: "Metodologi Penelitian", time: "20:00 - 10:30", room: "202", lecturer: "Devi Fajar Wati" },
     { day: "Friday", subject: "Jaringan Komputer 2", time: "19:00 - 20:40", room: "204 -2nd Floor", lecturer: "Ahmad Mubarok" },
-    { day: "Friday", subject: "Jaringan Komputer 2", time: "20:40 - 10:20", room: "Lab Computer 2 -4th Floor", lecturer: "Ahmad Mubarok" },
+    { day: "Friday", subject: "Jaringan Komputer 2", time: "20:40 - 22:20", room: "Lab Computer 2 -4th Floor", lecturer: "Ahmad Mubarok" },
     { day: "Saturday", subject: "Agama", time: "07.20 - 09.00", room: "202 -2nd Floor", lecturer: "Reza Azhari Muslim" },
     { day: "Saturday", subject: "Sistem Terdistribusi", time: "17:20 - 19:00", room: "204 -2nd Floor", lecturer: "Jajang Mulyana" },
     { day: "Saturday", subject: "Proyek Jaringan", time: "19:00 - 22:20", room: "Lab Computer 1 -3rd Floor", lecturer: "Deden Moh Alfiansyah" },
