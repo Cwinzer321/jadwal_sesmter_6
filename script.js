@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Simple "Next Class" logic
     const findNextClass = () => {
         const now = new Date();
-        const currentDay = now.toLocaleDateString('en-US', { weekday: 'long' });
+  const currentDay = now.toLocaleDateString('id-ID', { weekday: 'long' });
         const todayClasses = scheduleData.filter(item => item.day === currentDay);
 
         if (todayClasses.length > 0) {
