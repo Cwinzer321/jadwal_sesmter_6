@@ -39,9 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
             : scheduleData.filter(item => item.day === filterDay);
 
         // Update Total Count (Unique Subjects Only)
-        if (totalMatkulBadge) {
-            const uniqueSubjects = new Set(filtered.map(item => item.subject));
-            totalMatkulBadge.textContent = uniqueSubjects.size;
+        try {
+            if (totalMatkulBadge) {
+                const uniqueSubjects = new Set(filtered.map(item => item.subject));
+                totalMatkulBadge.textContent = uniqueSubjects.size;
+                console.log(`Updated counter: ${uniqueSubjects.size} unique subjects`);
+            }
+        } catch (err) {
+            console.error("Error updating subject counter:", err);
         }
 
         filtered.forEach((item, index) => {
